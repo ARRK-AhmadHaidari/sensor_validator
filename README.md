@@ -25,11 +25,11 @@ A basic framework with some provided files is given in this repo.
 
 ```
 
-MODULE.bazel                    ← provided below
+MODULE.bazel                    ← provided
 BUILD.bazel                     ← root target file (can be empty for now)
 lib/
  ├── BUILD.bazel                 ← you write this
- ├── sensor_validator.h          ← provided below
+ ├── sensor_validator.h          ← provided
  └── sensor_validator.cc         ← you implement this
 test/
  ├── BUILD.bazel                 ← you write this
